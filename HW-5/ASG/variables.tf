@@ -1,0 +1,9 @@
+variable "region" {}
+variable "module_name" {}
+variable "lc_name" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "security_groups" {}
+variable "asg_name" {}
+variable "vpc_zone_identifier" {}
+variable "health_check_type" {}
