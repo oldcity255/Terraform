@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "vepas-terraform-state-file"
-    key    = "tfstate/homework-four.tfstate"
+    key    = "tfstate/vpc-module.tfstate"
     region = "us-east-1"
   }
 }
